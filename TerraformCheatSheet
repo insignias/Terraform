@@ -1,0 +1,8 @@
+terraform init : initialize the plugin
+terraform plan : dry run
+terraform apply : create the resources
+terraform destroy : destroy all the resources
+terraform destroy -target aws_instance.myec2 : delete specific resource 
+terraform refresh : fetches the latest information and updates the state file 
+terraform show : display's all the information from the terraform state file in easy read manner 
+
